@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>FAQ - Secure I/O</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="icon" href="/favicon.png">
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.281bf32653c92fd936ba3fb9536695dd6c95edcf2be260ba19143b718f399758.css">
+  
+
+  
+
+</head>
+
+<body class='page page-default-single'>
+  <div id="main-menu-mobile" class="main-menu-mobile">
+  <ul>
+    
+    
+    <li class="menu-item-home">
+      <a href="/">
+        <span>Home</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-doc">
+      <a href="/doc">
+        <span>Doc</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-github">
+      <a href="https://github.com/secure-io">
+        <span>Github</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+  <div class="wrapper">
+    <div class='header'>
+  <div class="container">
+    <div class="logo">
+      <a href="/"><img alt="Logo" src="/images/logo.png" /></a>
+    </div>
+    <div class="logo-mobile">
+      <a href="/"><img alt="Logo" src="/images/logo.png" /></a>
+    </div>
+    <div id="main-menu" class="main-menu">
+  <ul>
+    
+    
+    <li class="menu-item-home">
+      <a href="/">
+        <span>Home</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-doc">
+      <a href="/doc">
+        <span>Doc</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-github">
+      <a href="https://github.com/secure-io">
+        <span>Github</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+  </div>
+</div>
+
+
+    
+    
+    
+    
+    
+    
+
+    
+    <div class="container pt-2 pt-md-6 pb-3 pb-md-6">
+      <div class="row">
+        <div class="col-12 col-md-3 mb-3">
+          <div class="sidebar">
+            
+<div class="docs-menu">
+  <h4>Doc</h4>
+  <ul>
+    
+    <li class="">
+      <a href="/doc/introduction/">Introduction</a>
+    </li>
+    
+    <li class="active ">
+      <a href="/doc/faq/">FAQ</a>
+    </li>
+    
+  </ul>
+</div>
+
+          </div>
+        </div>
+        <div class="col-12 col-md-9">
+          
+<h1 class="title">FAQ</h1>
+<div class="content">
+  
+
+<h3 id="a-name-x-a-what-does-provable-secure-mean"><a name=X></a> What does <em>&ldquo;provable secure&rdquo;</em> mean?</h3>
+
+<p><strong>TL;DR:</strong> The authenticated encryption scheme used by Secure I/O is secure if
+the underlying <a href="https://wikipedia.org">AEAD</a>, e.g. AES-GCM, is secure.</p>
+
+<p>In modern cryptography people often try to proof the security of algorithms or
+protocols. The advantage of a security proof is that you know - <strong>for sure</strong> -
+that the scheme guarantees certain security properties.</p>
+
+<p>However, a security proof does neither mean that the scheme cannot be broken at all
+nor that it can be applied out of context. Often there is no proof showing the absolute
+security of a certain algorithm. Instead, many security proofs look like this statement:</p>
+
+<p><em>If <code>X</code> has some property <code>P</code> then <code>Y</code> guarantees property <code>Q</code></em>.<br />
+<em>Proof: &hellip;</em></p>
+
+<p>In particular, the authenticated encryption scheme used by Secure I/O guarantees a
+set of security properties if the underlying AEAD provides
+confidentiality (<a href="https://en.wikipedia.org/wiki/Ciphertext_indistinguishability">IND-CPA</a>)
+and integrity (<a href="https://en.wikipedia.org/wiki/Message_authentication">INT-CTXT</a>).</p>
+
+<p>&hellip;</p>
+
+<p>For more details and the complete security analysis take a look at the
+<a href="https:github.com/secure-io/sio">paper</a>.</p>
+
+<h3 id="a-name-why-should-i-use-secure-io-a-why-should-i-use-secure-i-o"><a name=why-should-i-use-secure-io></a> Why should I use Secure I/O?</h3>
+
+</div>
+</div>
+
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  
+
+  
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/scripts.min.bf1e1f7ae8e03db5f012356e825843facdff51c0a559cb0d27fe2bbe1db405c2.js"></script>
+  
+
+  
+  
+  
+    
+  
+
+
+</body>
+
+</html>
