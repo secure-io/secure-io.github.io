@@ -2,6 +2,8 @@ baseURL = "/"
 languageCode = "en-us"
 title = "Secure I/O"
 
+publishDir = "docs"
+
 themesDir = "themes"
 theme = "hugo-whisper-theme"
 

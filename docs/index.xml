@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Secure I/O</title>
+    <link>/</link>
+    <description>Recent content on Secure I/O</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Feb 2019 19:27:37 +1000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introduction</title>
+      <link>/doc/introduction/</link>
+      <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
+      
+      <guid>/doc/introduction/</guid>
+      <description>Secure I/O is an open-source project that provides provable secure authenticated encryption for data streams.
+It has been developed because many widely used solutions for data encryption are not well-suited for streaming or cannot preserve important security guarantees.
+Take a look at the FAQ to learn more about the limitations of classical encryption schemes.</description>
+    </item>
+    
+    <item>
+      <title>FAQ</title>
+      <link>/doc/faq/</link>
+      <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
+      
+      <guid>/doc/faq/</guid>
+      <description>What does &amp;ldquo;provable secure&amp;rdquo; mean? TL;DR: The authenticated encryption scheme used by Secure I/O is secure if the underlying AEAD, e.g. AES-GCM, is secure.
+In modern cryptography people often try to proof the security of algorithms or protocols. The advantage of a security proof is that you know - for sure - that the scheme guarantees certain security properties.
+However, a security proof does neither mean that the scheme cannot be broken at all nor that it can be applied out of context.</description>
+    </item>
+    
+  </channel>
+</rss>
