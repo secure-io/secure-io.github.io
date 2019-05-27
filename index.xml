@@ -17,9 +17,18 @@
       <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
       
       <guid>/doc/introduction/</guid>
-      <description>Secure I/O is an open-source project that provides provable secure authenticated encryption for data streams.
-It has been developed because many widely used solutions for data encryption are not well-suited for streaming or cannot preserve important security guarantees.
+      <description>Secure I/O is an open-source project that provides provable secure authenticated encryption for I/O streams.
+It provides packages for various programming languages and each package exposes an easy-to-use and idiomatic API for encrypting and decrypting I/O operations. However, Secure I/O is not a comprehensive cryptographic library. Instead, it focuses on one specific problem, i.e. encrypting data streams, and solves that in a provable secure way.
 Take a look at the FAQ to learn more about the limitations of classical encryption schemes.</description>
+    </item>
+    
+    <item>
+      <title>FAQ</title>
+      <link>/doc/faq/</link>
+      <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
+      
+      <guid>/doc/faq/</guid>
+      <description>Why should I use Secure I/O? What does provable secure mean? How can I encrypt data? What&#39;s a nonce? Which algorithm should I use? </description>
     </item>
     
   </channel>
