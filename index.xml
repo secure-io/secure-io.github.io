@@ -28,7 +28,7 @@ Supported Languages At the moment there are a packages for the following languag
       <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
       
       <guid>/doc/faq/</guid>
-      <description>Why should I use Secure I/O?   What does provable secure mean?   How can I encrypt data?   What&#39;s a nonce?   Which algorithm should I use?   How can I contribute?   </description>
+      <description>Why should I use Secure I/O?   Actually, there are many different ways to encrypt data. For example, a block cipher, e.g. AES, in counter mode (CTR) has been and still is a quite popular encryption scheme. Even though, AES-CTR preserves the confidentiality of the encrypted data, it provides no integrity protection whatsoever. In particular, an attacker can flip a bit of the ciphertext and therefore, can cause a flip of the corresponding plaintext bit during decryption.</description>
     </item>
     
   </channel>
